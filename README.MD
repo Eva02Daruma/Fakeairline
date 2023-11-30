@@ -5,9 +5,9 @@ Una App web de Svelte que simula una pagina web real donde compras pasajes de Av
 ## Capturas del proyecto
 
 ### Pagina principal
-<img src="./assets/captura1.png" alt="Pagina Principal" width="300"/>
+<img src="./assets/captura1.png" alt="Pagina Principal" width="700"/>
 
 
 ### Reserva de Vuelo
-<img src="./assets/captura2.png" alt="Reserva de Vuelo" width="300"/>
+<img src="./assets/captura2.png" alt="Reserva de Vuelo" width="700"/>
 
