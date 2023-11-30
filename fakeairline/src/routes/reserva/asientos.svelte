@@ -2,9 +2,11 @@
     let filas_asientos = 28;
     let columnas_asientos = 6;
 
-    function getIdAsiento(fila, columna){
-        return fila*columnas_asientos + columna;
+    const asiento_selected = {
+        fila: 0,
+        columna: 0
     }
+  
     // la idea es que cada columna tenga una letra y cada fila un numero
 
 </script>

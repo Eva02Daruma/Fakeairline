@@ -15,19 +15,19 @@
         {id: 13, ciudad: 'Amsterdam', pais: 'Holanda', origen: 'Santiago'},
         {id: 14, ciudad: 'Atenas', pais: 'Grecia', origen: 'Santiago'},
     ]
-    let selected;
+    export let destino_selected = '';
 
 
 </script>
 <div>
     <h1>Seleccion de destino</h1>
     <form>
-        <select> {#if !selected}
+        <select> {#if destino_selected == ''}
             <option value="">Seleccione un destino</option>
             {/if}
             {#each destinos as destino}
+            <option value={destino.id}>{destino.ciudad} - {destino.pais}</option>
+            {/each}
            </select>
     </form>
-
-
 </div>
