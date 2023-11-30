@@ -19,15 +19,17 @@
 
 
 </script>
-<div>
-    <h1>Seleccion de destino</h1>
-    <form>
-        <select> {#if destino_selected == ''}
-            <option value="">Seleccione un destino</option>
-            {/if}
-            {#each destinos as destino}
-            <option value={destino.id}>{destino.ciudad} - {destino.pais}</option>
-            {/each}
-           </select>
-    </form>
-</div>
+<main>
+    <div>
+        <h1>Seleccion de destino</h1>
+        <form>
+            <select bind:value={destino_selected}> {#if destino_selected == ''}
+                <option value="">Seleccione un destino</option>
+                {/if}
+                {#each destinos as destino}
+                <option value={destino.id}>{destino.ciudad} - {destino.pais}</option>
+                {/each}
+               </select>
+        </form>
+    </div>
+</main>

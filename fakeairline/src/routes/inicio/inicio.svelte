@@ -30,7 +30,6 @@
 	<section>
 		<!-- svelte-ignore a11y-missing-attribute -->
 		<a class="btn variant-filled-primary" href="reserva">Reservar Vuelo</a>
-		<a class="btn variant-filled-secondary" href="https://tailwindcss.com/">Sobre App</a>
 		<a class="btn variant-filled-tertiary" href="https://github.com/">GitHub</a>
 	</section>
 </div>
