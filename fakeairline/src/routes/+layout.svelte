@@ -47,9 +47,9 @@
 				{#if logged}
 					<a>.</a>
 				{:else}
-					<a href="/login" class="btn btn-sm variant-ghost-surface md:mx-auto"> Login </a>
+					<a href="/login" class="btn btn-sm variant-ghost-surface  md:mx-auto"> Login </a>
 				{/if}
-				<a class="btn btn-sm variant-ghost-surface md:mx-auto"> Reservar </a>
+				<a href="/reserva" class="btn btn-sm variant-ghost-surface md:mx-auto"> Reservar </a>
 				<a class="btn btn-sm variant-ghost-surface md:mx-auto"> Mis Reservas </a>
 			</svelte:fragment>
 		</AppBar>
